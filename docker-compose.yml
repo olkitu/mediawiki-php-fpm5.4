@@ -2,7 +2,7 @@ version: "3"
 services:
   php-fpm:
     build: .
-    image: olkitu/mediawiki-php-fpm5.6
+    image: olkitu/mediawiki-php-fpm5.4
     ports:
     - 9000:9000
     volumes:
