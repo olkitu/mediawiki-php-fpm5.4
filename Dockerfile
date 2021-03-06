@@ -21,6 +21,7 @@ RUN set -eux; \
 	docker-php-ext-install -j "$(nproc)" \
 		intl \
 		mbstring \
+        mysql \
 		mysqli \
 		opcache \
 	; \
